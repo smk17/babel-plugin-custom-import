@@ -1,0 +1,21 @@
+{
+  "name": "@smk17/babel-plugin-custom-import",
+  "version": "0.0.1",
+  "description": "a babel plugin for ignoring some import syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "ESM",
+    "webpack"
+  ],
+  "author": "smk17",
+  "license": "ISC",
+  "dependencies": {
+    "babel-template": "^6.26.0",
+    "babel-types": "^6.26.0"
+  }
+}
