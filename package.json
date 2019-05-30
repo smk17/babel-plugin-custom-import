@@ -1,6 +1,6 @@
 {
   "name": "@smk17/babel-plugin-custom-import",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a babel plugin for ignoring some import syntax",
   "main": "index.js",
   "scripts": {
