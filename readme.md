@@ -1,13 +1,4 @@
-<!--
- * @title: In Title Edit
- * @description: In User Settings Edit
- * @author: smk17
- * @Date: 2018-08-18 10:25:20
- * @LastEditTime: 2019-05-30 15:28:31
- * @LastEditors: Do not edit
- -->
-
-# babel-plugin-import-customized-require
+# babel-plugin-custom-import
 
 ## Intro
 
@@ -16,7 +7,7 @@ It's a babel plugin to transform the ESM (`import`) syntax to your own call expr
 ## Installation
 
 ```sh
-yarn add -D @smk17/babel-plugin-custom-import
+yarn add -D babel-plugin-custom-import
 ```
 
 ## Usage
@@ -42,10 +33,10 @@ module.exports = {
           options: {
             plugins: [
               // default configuration
-              "@smk17/babel-plugin-custom-import",
+              "babel-plugin-custom-import",
               // custom configuration
               [
-                "@smk17/babel-plugin-custom-import",
+                "babel-plugin-custom-import",
                 {
                   externalScheme: "^runtime:",
                   syncFunc: "__my_require__",

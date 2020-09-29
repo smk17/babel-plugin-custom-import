@@ -1,10 +1,13 @@
 {
-  "name": "@smk17/babel-plugin-custom-import",
-  "version": "0.1.1",
+  "name": "babel-plugin-custom-import",
+  "version": "1.0.3",
   "description": "a babel plugin for ignoring some import syntax",
+  "author": "smk17",
+  "license": "ISC",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smk17/babel-plugin-custom-import"
   },
   "keywords": [
     "babel",
@@ -12,8 +15,10 @@
     "ESM",
     "webpack"
   ],
-  "author": "smk17",
-  "license": "ISC",
+  "scripts": {
+    "l": "npm login --registry=https://registry.npmjs.org/",
+    "p": "npm publish --access public --registry=https://registry.npmjs.org/"
+  },
   "dependencies": {
     "babel-template": "^6.26.0",
     "babel-types": "^6.26.0"
